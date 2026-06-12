@@ -132,7 +132,6 @@ h4{
   border-radius: 12px;
   display: inline-block;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  max-width: 100%;
 }
 
 .download-btn{
@@ -143,6 +142,16 @@ h4{
   border: none;
   transition: background-color 0.15s ease;
   margin-top: 1rem;
+}
+
+.qr-code canvas {
+  display: none !important;
+}
+
+.qr-code img {
+  display: block;
+  max-width: 100% !important; 
+  height: auto !important;
 }
 
 .download-btn:hover{
