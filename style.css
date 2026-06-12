@@ -137,13 +137,6 @@ h4{
   box-sizing: border-box;
 }
 
-.qr-code img{
-  display:block;
-  
-  max-width: 100% !important;
-  height: auto !important;
-}
-
 .download-btn{
   width: 10rem;
   height: 2.5rem;
