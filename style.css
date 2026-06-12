@@ -144,16 +144,6 @@ h4{
   margin-top: 1rem;
 }
 
-.qr-code canvas {
-  display: none !important;
-}
-
-.qr-code img {
-  display: block;
-  max-width: 100% !important; 
-  height: auto !important;
-}
-
 .download-btn:hover{
   cursor: pointer;
   background-color: rgb(7, 83, 197);
