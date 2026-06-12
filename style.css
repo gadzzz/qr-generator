@@ -137,10 +137,6 @@ h4{
   box-sizing: border-box;
 }
 
-.qr-code canvas {
-  display: none !important;
-}
-
 .qr-code img{
   display:block;
   
