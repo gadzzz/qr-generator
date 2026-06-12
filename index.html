@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Script -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+     <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="main-container">
+      
+      <h1>QR Code Generator</h1>
+      <h4>Enter Text or URL to generate QR code</h4>
+      
+      <div class="input-container" id="input-container">
+        <textarea placeholder="Enter text or URL here" class="qr-text" id="qr-text"></textarea>
+      </div>
+      
+      <div class="qr-settings">
+        <p class="size-text">
+          Size:
+        </p>
+
+        <select class="size" id="size">
+          <option value="200x200"> 200x200 </option>
+          <option value="300x300"> 300x300 </option>
+          <option value="400x400"> 400x400 </option>
+        </select>
+      </div>
+
+      <button class="generate-btn" id="generate-btn">
+        Generate QR Code
+      </button>
+
+      <div class="qr-section" id="qr-section">
+        <div class="qr-code" id="qr-code-container">
+        </div>
+        <button class="download-btn" id="download-btn">
+          Download QR Code
+        </button>
+      </div>
+    </div>  
+  </body>
+</html>
